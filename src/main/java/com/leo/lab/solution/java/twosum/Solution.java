@@ -10,6 +10,7 @@ import java.util.HashMap;
  */
 public class Solution implements TwoSum {
 
+    @Override
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
