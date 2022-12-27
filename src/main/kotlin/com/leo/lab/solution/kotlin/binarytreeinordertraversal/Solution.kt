@@ -1,7 +1,7 @@
 package com.leo.lab.solution.kotlin.binarytreeinordertraversal
 
 import com.leo.lab.question.BinaryTreeInorderTraversal
-import com.leo.lab.question.BinaryTreeInorderTraversal.TreeNode
+import com.leo.lab.question.datastructure.TreeNode
 import java.util.*
 
 class Solution : BinaryTreeInorderTraversal {

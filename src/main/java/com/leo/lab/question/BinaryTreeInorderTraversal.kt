@@ -1,11 +1,8 @@
 package com.leo.lab.question
 
-interface BinaryTreeInorderTraversal : Question {
+import com.leo.lab.question.datastructure.TreeNode
 
-    class TreeNode(var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
-    }
+interface BinaryTreeInorderTraversal : Question {
 
     fun inorderTraversal(root: TreeNode?): List<Int>
 }
